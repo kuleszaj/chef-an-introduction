@@ -18,10 +18,10 @@ The following steps will install all necessary gems, boot a new Vagrant, bootstr
 
 1. Run `bundle install`
 1. Run `bundle exec cap berks`
-1. Run `bundle exec cap vexample vg:up`
-1. Run `bundle exec cap vexample bootstrap`
-1. Run `bundle exec cap vexample chef`
+1. Run `bundle exec cap vrails4 vg:up`
+1. Run `bundle exec cap vrails4 bootstrap`
+1. Run `bundle exec cap vrails4 chef`
 
 ## Customization
 
-`README` files in each of the repository's directories provide information about the purpose of the directory and included files. Working examples have been provide ("example" and "vexample" stages, and "example_cookbook" cookbook).
+`README` files in each of the repository's directories provide information about the purpose of the directory and included files. Working examples have been provide ("example" and "vrails4" stages, and "example_cookbook" cookbook).
