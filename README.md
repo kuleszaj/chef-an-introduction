@@ -6,10 +6,10 @@ The intent is to provide a skeletal framework from which others can start using 
 
 ## Requirements
 
-1. [Ruby 1.9.3](http://ruby-lang.org)
+1. [Ruby](http://ruby-lang.org), 1.9.3 or 2.0.0
 1. [Bundler](http://gembundler.com/)
-1. [Vagrant](http://vagrantup.com) 1.2.x
-1. [VirtualBox](http://virtualbox.org)
+1. [Vagrant](http://vagrantup.com) (Tested with 1.2.x)
+1. [VirtualBox](http://virtualbox.org) (Tested with 4.2.x)
 1. (Could be adapted to use other Vagrant providers, such as [VMWare Fusion](http://www.vagrantup.com/vmware) or [AWS](https://github.com/mitchellh/vagrant-aws))
 
 ## Getting Started
