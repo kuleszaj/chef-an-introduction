@@ -58,12 +58,12 @@ mysql_database 'rails4' do
 end
 
 # Uses the Opscode 'mysql_database' LWP set create a database user with full permissions
-mysql_database_user 'foo_user' do
+mysql_database_user 'rails_user' do
   connection mysql_connection_info
   password 'super_secret'
   database_name 'rails4'
-  host 'loaclhost'
+  host 'localhost'
   privileges [:all]
-  action :grant
+  action [:create,:grant]
 end
 
