@@ -1,0 +1,17 @@
+{
+  "mysql":
+    {
+      "server_root_password": "somethingsecret",
+      "server_repl_password": "somethingsecret",
+      "server_debian_password": "somethingsecret"
+    },
+  "run_list":
+    [
+      "recipe[apache2]",
+      "recipe[mysql::client]",
+      "recipe[mysql::ruby]",
+      "recipe[mysql::server]",
+      "recipe[rails4]"
+    ]
+}
+

@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "apt": {
+      "locked_version": "1.9.2"
+    },
+    "apache2": {
+      "locked_version": "1.6.2"
+    },
+    "database": {
+      "locked_version": "1.4.0"
+    },
+    "mysql": {
+      "locked_version": "3.0.0"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "postgresql": {
+      "locked_version": "2.4.0"
+    },
+    "aws": {
+      "locked_version": "0.101.0"
+    },
+    "xfs": {
+      "locked_version": "1.1.0"
+    }
+  }
+}
