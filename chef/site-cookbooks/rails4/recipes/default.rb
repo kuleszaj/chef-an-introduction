@@ -29,7 +29,6 @@ package "ruby2.0-dev"
 
 # Bundler for managing our gems
 gem_package "bundler"
-gem_package "mysql"
 
 # Install the libcurl4-openssl-dev package via apt (needed for Passenger)
 package "libcurl4-openssl-dev"
@@ -50,9 +49,7 @@ web_app "rails4" do
 end
 
 # Create has containing database info
-mysql_connection_info = {:host => "localhost",
-                         :username => 'root',
-                         :password => node['mysql']['server_root_password']}
+mysql_connection_info = {:host => "localhost", :username => 'root', :password => node['mysql']['server_root_password']}
 
 # Uses the Opscode 'mysql_database' LWP set create a database
 mysql_database 'rails4' do
